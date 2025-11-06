@@ -1,3 +1,5 @@
+// ignore_for_file: deprecated_member_use
+
 library icons_helper;
 
 import 'package:flutter/material.dart';
@@ -1055,7 +1057,7 @@ const Map<String, IconData> IconsMap = <String, IconData>{
 };
 
 /// Icon data map for FontAwesome (currently 5.5)
-const Map<String, IconData> FontAwesomeIconsMap = <String, IconData>{
+final Map<String, IconData> FontAwesomeIconsMap = <String, IconData>{
   'zero': FontAwesomeIcons.zero,
   'one': FontAwesomeIcons.one,
   'two': FontAwesomeIcons.two,
@@ -3664,7 +3666,6 @@ const Map<String, IconData> FontAwesomeIconsMap = <String, IconData>{
   'vanShuttle': FontAwesomeIcons.vanShuttle,
   'shuttleVan': FontAwesomeIcons.shuttleVan,
   'vault': FontAwesomeIcons.vault,
-  'vectorSquare': FontAwesomeIcons.vectorSquare,
   'venus': FontAwesomeIcons.venus,
   'venusDouble': FontAwesomeIcons.venusDouble,
   'venusMars': FontAwesomeIcons.venusMars,

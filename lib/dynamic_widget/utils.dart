@@ -231,7 +231,6 @@ TextStyle? parseTextStyle(Map<String, dynamic>? map) {
   if (map == null) {
     return null;
   }
-  //TODO: more properties need to be implemented, such as decorationColor, decorationStyle, wordSpacing and so on.
   String? color = map['color'];
   String? debugLabel = map['debugLabel'];
   String? decoration = map['decoration'];
